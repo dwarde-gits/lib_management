@@ -99,7 +99,7 @@ std::vector<Transaction> readCSV(const std::string &filename)
 // the librarian can do a borrow transaction.
 void borrowBook()
 {
-    
+    // get member, then get book
 }
 // the librarian can return a book.
 void returnBook()
@@ -108,7 +108,7 @@ void returnBook()
 
 int main()
 {
-    vector<Transaction> transactionList2 = readCSV("transactions.csv");
+    vector<Transaction> transactionList2 = readCSV("./csv_files/transactions.csv");
     // vector<Book> bookList2 = readCSV("books.csv");
 
     return 0;
